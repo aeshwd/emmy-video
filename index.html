@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <style>
+
+        body{
+            background-color: #b1b9c7;
+            position: relative;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container .image img{
+            width: 500px;
+        }
+
+        .container .get-started{
+            margin-top: 40px;
+        }
+
+
+
+        .container .get-started button{
+            font-size: 1.4rem;
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            outline: none;
+        }
+
+        @media screen and (max-width: 581px) {
+            .container .image img{
+                width: 270px;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container" style="background-color: #b1b9c7;">
+        <div class="image">
+            <img src="images/video-gif.gif">
+        </div>
+        <div class="get-started">
+            <button class="btn" onclick="window.location.href='main.html'">Get Started</button>
+        </div>
+    </div>
+
+
+    
+</body>
+<script src="script.js"></script>
+</html>
